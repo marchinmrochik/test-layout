@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {formatPhoneNumber} from "../../utils/formatPhoneNumber";
 
-import {PhoneIcon} from "../../assets/image/base-icons";
+import {PhoneIcon} from "../../assets/images/base-icons";
 
 import styles from './styles.module.scss'
 

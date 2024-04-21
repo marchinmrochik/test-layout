@@ -1,6 +1,6 @@
 import React from 'react';
 import PhoneSelect from "./PhoneSelect";
-import {ArrowIcon, UserIcon} from "../../assets/image/base-icons";
+import {ArrowIcon, UserIcon} from "../../assets/images/base-icons";
 
 import styles from './styles.module.scss'
 

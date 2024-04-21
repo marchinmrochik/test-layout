@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import PhoneSelect from "./PhoneSelect";
 
-import {LogoIcon, ArrowIcon, UserIcon} from '../../assets/image/base-icons'
+import {LogoIcon, ArrowIcon, UserIcon} from '../../assets/images/base-icons'
 
 import styles from './styles.module.scss'
 import useScroll from "../../hooks/useScroll";

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {ImageInfo} from '../../assets/image';
+import {ImageInfo} from '../../assets/images';
 
 import styles from './styles.module.scss';
 const SectionInfo = () => {

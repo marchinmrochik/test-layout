@@ -1,7 +1,7 @@
 import React from 'react';
 
-import {ArrowIcon} from '../../assets/image/base-icons'
-import {arrayLogo} from "../../assets/image/company-logo";
+import {ArrowIcon} from '../../assets/images/base-icons'
+import {arrayLogo} from "../../assets/images/company-logo";
 
 import styles from './styles.module.scss'
 const SectionCustomer = () => {
