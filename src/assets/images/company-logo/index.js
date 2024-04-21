@@ -1,23 +1,23 @@
-import airCanadaLogo from './ic-air_canada_line.svg';
-import camTranLogo from './ic-cam_tran.svg';
-import cascadeLogo from './ic-cascade.svg';
-import cinepolisLogo from './ic-cinepolis.svg';
-import grubhubLogo from './ic-grubhub.svg';
-import jonasLogo from './ic-jonas.svg';
-import mobiryLogo from './ic-mobiry.svg';
-import memberColutionsLogo from './ic-member_colutions.svg';
-import nokiaLogo from './ic-nokia.svg';
+import AirCanadaLogo from './ic-air_canada_line.svg';
+import CamTranLogo from './ic-cam_tran.svg';
+import CascadeLogo from './ic-cascade.svg';
+import CinepolisLogo from './ic-cinepolis.svg';
+import GrubhubLogo from './ic-grubhub.svg';
+import JonasLogo from './ic-jonas.svg';
+import MobiryLogo from './ic-mobiry.svg';
+import MemberColutionsLogo from './ic-member_colutions.svg';
+import NokiaLogo from './ic-nokia.svg';
 
 export const arrayLogo = [
-    jonasLogo,
-    cinepolisLogo,
-    airCanadaLogo,
-    nokiaLogo,
-    memberColutionsLogo,
-    cascadeLogo,
-    grubhubLogo,
-    mobiryLogo,
-    camTranLogo
-]
+    JonasLogo,
+    CinepolisLogo,
+    AirCanadaLogo,
+    NokiaLogo,
+    MemberColutionsLogo,
+    CascadeLogo,
+    GrubhubLogo,
+    MobiryLogo,
+    CamTranLogo
+];
 
 

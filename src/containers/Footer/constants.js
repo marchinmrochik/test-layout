@@ -1,4 +1,4 @@
-import {facebookIcon, linkedInIcon, twitterIcon} from '../../assets/images/social-network-logo'
+import {FacebookIcon, LinkedInIcon, TwitterIcon} from '../../assets/images/social-network-logo'
 export const LOCATIONS = [
     {
         text: 'Krakow, Poland',
@@ -82,15 +82,15 @@ export const CAREER = [
 
 export const SOCIAL_NETWORK_LINKS = [
     {
-       icon: twitterIcon,
+       icon: TwitterIcon,
        link: 'https://twitter.com/'
     },
     {
-        icon: facebookIcon,
+        icon: FacebookIcon,
         link: 'https://uk-ua.facebook.com/'
     },
     {
-        icon: linkedInIcon,
+        icon: LinkedInIcon,
         link: 'https://www.linkedin.com/'
     }
 ]
