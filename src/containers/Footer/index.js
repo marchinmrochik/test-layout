@@ -67,7 +67,7 @@ const Footer = () => {
                     <div className={styles.socialList}>
                         {SOCIAL_NETWORK_LINKS.map((item, id) => {
                             return <a className={styles.socialLink} key={id} href={item.link}>
-                                <img src={item.icon} alt={`Social icon ${id}`}/>
+                                <img src={item.icon} alt={`Social icon ${id}`} title={`Social icon ${id}`}/>
                             </a>
                         })}
                     </div>

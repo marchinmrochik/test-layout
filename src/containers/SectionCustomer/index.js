@@ -12,18 +12,18 @@ const SectionCustomer = () => {
                     <h2 className={`title-h2 ${styles.title}`}>Our customer</h2>
                     <a href="/case-studies" className={styles.button}>
                         View Case Studies
-                        <img src={ArrowIcon} alt="arrow icon"/>
+                        <img src={ArrowIcon} alt="arrow icon" title="arrow icon"/>
                     </a>
                 </div>
                 <div className={styles.logos}>
                     {arrayLogo.map((logo, id) => {
-                        return <img src={logo} key={id} alt="company logo"/>
+                        return <img src={logo} key={id} alt="company logo" title="company logo"/>
                     })}
                 </div>
 
                 <a href="/case-studies" className={`${styles.buttonMobile}`}>
                     View Case Studies
-                    <img src={ArrowIcon} alt="arrow icon"/>
+                    <img src={ArrowIcon} alt="arrow icon" title="arrow icon"/>
                 </a>
             </div>
 

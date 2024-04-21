@@ -1,6 +1,6 @@
-import ImageInfo from './image.png';
+import TeamPhoto from './teamPhoto.png';
 
 
 export {
-    ImageInfo
+    TeamPhoto
 };

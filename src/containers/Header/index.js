@@ -37,7 +37,7 @@ const Header = () => {
                 <PhoneSelect/>
                 <section className={styles.navigationSection}>
                     <a href="/">
-                        <img src={LogoIcon} alt="logo"/>
+                        <img src={LogoIcon} alt="logo" title="logo"/>
                     </a>
                     <nav className={styles.navigation}>
                         <ul className={styles.list}>
@@ -97,13 +97,13 @@ const Header = () => {
                             </li>
                             <li className={styles.listItem}>
                                 <a className={styles.listLink} href="/login">
-                                    <img src={UserIcon} alt="user icon"/>
+                                    <img src={UserIcon} alt="user icon"  title="user icon"/>
                                     Client login
                                 </a>
                             </li>
                         </ul>
                         <a className={styles.button} href="/quote">
-                            Get a Quote <img src={ArrowIcon} alt="arrow icon"/>
+                            Get a Quote <img src={ArrowIcon} alt="arrow icon" title="arrow icon"/>
                         </a>
                     </nav>
                     <div

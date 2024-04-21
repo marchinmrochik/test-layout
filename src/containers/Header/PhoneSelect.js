@@ -14,7 +14,7 @@ const PhoneSelect = ({isMobile = false}) => {
 
     return (
         <div className={`${styles.phoneSection} ${isMobile ? styles.phoneSectionMobile : ''}`}>
-            <img src={PhoneIcon} alt="phone icon"/>
+            <img src={PhoneIcon} alt="phone icon" title={'phone icon'}/>
             <select name='phones' className={styles.select} onChange={handlePhoneChange}
                     value={selectedPhone}>
                 <option value={'+18883387638'}>US/Canada</option>

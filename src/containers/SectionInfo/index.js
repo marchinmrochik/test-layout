@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {ImageInfo} from '../../assets/images';
+import {TeamPhoto} from '../../assets/images';
 
 import styles from './styles.module.scss';
 const SectionInfo = () => {
@@ -11,7 +11,7 @@ const SectionInfo = () => {
                     We are proud to have designed solutions that were industry firsts.
                 </h2>
                 <div className={styles.content}>
-                    <img src={ImageInfo} alt="image"/>
+                    <img src={TeamPhoto} alt="team photo" title="team photo"/>
                     <p>
                         Innovation is in our DNA. We are proud to have designed solutions that were industry firsts. For
                         example, our team developed one of the first Content Management Systems around the turn of the

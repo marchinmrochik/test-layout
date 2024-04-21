@@ -66,13 +66,13 @@ const MobileMenu = ({showMenu}) => {
                     </li>
                     <li className={styles.listItem}>
                         <a href="">
-                            <img src={UserIcon} alt="user icon"/>
+                            <img src={UserIcon} alt="user icon" title="user icon"/>
                             Client login
                         </a>
                     </li>
                 </ul>
                 <a className={styles.button} href="">
-                    Get a Quote <img src={ArrowIcon} alt="arrow icon"/>
+                    Get a Quote <img src={ArrowIcon} alt="arrow icon" title="arrow icon"/>
                 </a>
             </nav>
         </div>
