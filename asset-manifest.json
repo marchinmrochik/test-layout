@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/test-layout/static/css/main.b67f3d9f.css",
+    "main.js": "/test-layout/static/js/main.2daea0f2.js",
+    "static/js/453.3f483d31.chunk.js": "/test-layout/static/js/453.3f483d31.chunk.js",
+    "static/media/image.png": "/test-layout/static/media/image.ae4f75d295b916a84992.png",
+    "static/media/ic-jonas.svg": "/test-layout/static/media/ic-jonas.fd2ac815ad25dfee4c944b03a411c15b.svg",
+    "static/media/ic-logo.svg": "/test-layout/static/media/ic-logo.88eb1f326c018b0e574f61367fc7c32a.svg",
+    "static/media/ic-cascade.svg": "/test-layout/static/media/ic-cascade.1d288367881236cfcb811fdbb97f1ce9.svg",
+    "static/media/ic-member_colutions.svg": "/test-layout/static/media/ic-member_colutions.210d33406bd3d816e52590dd4db4688c.svg",
+    "static/media/ic-cam_tran.svg": "/test-layout/static/media/ic-cam_tran.fe2f06899e1a0abb50f5f90c50f3f633.svg",
+    "static/media/ic-cinepolis.svg": "/test-layout/static/media/ic-cinepolis.64caf91f99eeb5f2235ac11f9260efdf.svg",
+    "static/media/ic-mobiry.svg": "/test-layout/static/media/ic-mobiry.c7ccd79fdc90ec3fcc13b0b03053d669.svg",
+    "static/media/ic-grubhub.svg": "/test-layout/static/media/ic-grubhub.df7586cfe87cecee8fa3af6d79b96a19.svg",
+    "static/media/ic-air_canada_line.svg": "/test-layout/static/media/ic-air_canada_line.1921496e702a06af5dda9a842ca56466.svg",
+    "static/media/ic-twitter.svg": "/test-layout/static/media/ic-twitter.a989cf764320a6539da861ea498ae4af.svg",
+    "static/media/ic-nokia.svg": "/test-layout/static/media/ic-nokia.2e728b2356ffb194739ea56626472cb5.svg",
+    "static/media/ic-linked_in.svg": "/test-layout/static/media/ic-linked_in.79e44dc0fc2cf98aecf33f4001c5dbc7.svg",
+    "static/media/ic-facebook.svg": "/test-layout/static/media/ic-facebook.df38a9f6816b003fb7602f2c60869ccf.svg",
+    "static/media/ic-phone.svg": "/test-layout/static/media/ic-phone.6029ea73fda2ab1d427811660b553e5f.svg",
+    "index.html": "/test-layout/index.html",
+    "static/media/ic-user.svg": "/test-layout/static/media/ic-user.fbc1c431b9c27253956e1e231a893aaa.svg",
+    "static/media/ic-arrow.svg": "/test-layout/static/media/ic-arrow.531e7c2a859c2091f87a36442308aa09.svg",
+    "static/media/ic-arrow-dropdown.svg": "/test-layout/static/media/ic-arrow-dropdown.ef1347943105d9e58130bec2e95a8b1a.svg",
+    "static/media/ic-triangle.svg": "/test-layout/static/media/ic-triangle.8d39f0ce3f1696d1d92d715a52923487.svg",
+    "main.b67f3d9f.css.map": "/test-layout/static/css/main.b67f3d9f.css.map",
+    "main.2daea0f2.js.map": "/test-layout/static/js/main.2daea0f2.js.map",
+    "453.3f483d31.chunk.js.map": "/test-layout/static/js/453.3f483d31.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b67f3d9f.css",
+    "static/js/main.2daea0f2.js"
+  ]
+}
