@@ -1,0 +1,169 @@
+@import "../../assets/styles/_variables.scss";
+
+.footer {
+  padding: 64px 0 32px;
+  font-family: "Roboto", sans-serif;
+
+  @media screen and (max-width: $breakpoint-mobile-medium) {
+    padding-top: 32px;
+  }
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  font-size: $font-size-medium;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: $breakpoint-mobile-large) {
+    justify-content: center;
+  }
+}
+
+.linkBlock {
+  @media screen and (max-width: $breakpoint-desktop) {
+    box-sizing: border-box;
+    width: 50%;
+
+    &:first-child {
+      padding-right: 15px;
+    }
+    &:last-child {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-mobile-large) {
+    width: 100%;
+  }
+}
+
+.contacts {
+  margin-top: 64px;
+  font-size: $font-size-small;
+  line-height: 20px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 970px) {
+    justify-content: center;
+  }
+
+  @media screen and (max-width: $breakpoint-mobile-medium) {
+    margin-top: 32px;
+  }
+}
+
+.linkList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(280px, 1fr));
+}
+
+.careerList {
+  grid-template-columns: repeat(2, minmax(280px, 1fr));
+
+  @media screen and (max-width: $breakpoint-mobile-large) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.title {
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.line {
+  background: $color-black;
+  height: 1px;
+  margin: 24px 0;
+}
+
+.link {
+  font-weight: 400;
+  line-height: 32px;
+  color: $color-black;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+
+  &:hover {
+    opacity: .75;
+  }
+}
+
+.contact {
+
+  &Wrapper {
+    @media screen and (max-width: 970px) {
+      width: 100%;
+      text-align: center;
+    }
+
+    @media screen and (max-width: $breakpoint-mobile-medium) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  &Link {
+    text-decoration: none;
+    color: $color-black;
+    margin-right: 32px;
+
+    @media screen and (max-width: $breakpoint-mobile-medium) {
+      margin-right: 0;
+      margin-bottom: 12px;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    b {
+      font-weight: 900;
+    }
+  }
+}
+
+.copyright {
+  color: $color-light-gray;
+
+  @media screen and (max-width: $breakpoint-mobile-medium) {
+    display: none;
+  }
+
+  &Mobile {
+    display: none;
+    color: $color-light-gray;
+    width: 100%;
+    text-align: center;
+
+    @media screen and (max-width: $breakpoint-mobile-medium) {
+      display: block;
+      margin-top: 6px;
+    }
+  }
+}
+
+.social {
+  &List {
+    display: inline-flex;
+    width: 128px;
+    justify-content: space-between;
+  }
+
+  &Link {
+    width: 32px;
+    height: 32px;
+    display: inline-grid;
+    justify-content: center;
+    align-content: center;
+  }
+}

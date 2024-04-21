@@ -1,0 +1,305 @@
+@import "../../assets/styles/_variables.scss";
+
+.header {
+  padding: 8px 0 16px;
+  font-family: "Roboto", sans-serif;
+  color: $color-black;
+  position: sticky;
+  width: 100%;
+  z-index: 100;
+  background: $color-white;
+  top: 0;
+}
+
+.scrolled {
+  box-shadow: 0 0 20px rgba(13, 21, 68, 0.2);
+}
+
+.phoneSection {
+  display: flex;
+  align-items: center;
+  font-size: $font-size-small;
+  line-height: 20px;
+
+  @media screen and (max-width: 965px) {
+    display: none;
+  }
+
+  &Mobile {
+    display: flex;
+  }
+
+  img {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    object-fit: none;
+    margin-right: 8px;
+  }
+
+  a {
+    font-weight: 700;
+    text-decoration: none;
+    color: $color-black;
+  }
+}
+
+.select {
+  border: none;
+  outline: none;
+  opacity: .4;
+  min-width: 103px;
+  font-size: $font-size-small;
+  line-height: 20px;
+  cursor: pointer;
+  margin-right: 8px;
+  appearance: none;
+  background: url(../../assets/image/base-icons/ic-triangle.svg) no-repeat right 8px;
+  background-position-x: calc(100% - 12px);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: 965px) {
+    display: none;
+  }
+
+  &Mobile {
+    display: flex;
+    flex-direction: column;
+
+
+    ul {
+      flex-direction: column;
+      margin: 0;
+    }
+  }
+}
+
+.navigationSection {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  font-weight: 500;
+  font-size: $font-size-normal;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  margin: 0 12px  0 0;
+
+  &Item {
+    padding: 16px;
+
+    @media screen and (max-width: 1100px) {
+      padding: 16px 8px;
+    }
+
+    @media screen and (max-width: 965px) {
+      width: 265px;
+      box-sizing: border-box;
+    }
+
+    &:hover .listLink {
+      color: $color-orange;
+    }
+
+    img {
+      width: 16px;
+      height: 16px;
+      margin-right: 4px;
+      object-fit: none;
+    }
+
+    a {
+      color: $color-black;
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+  }
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: $color-orange;
+  border: none;
+  color: $color-white;
+  width: 161px;
+  height: 56px;
+  padding: 16px;
+  box-sizing: border-box;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  @media screen and (max-width: 965px) {
+    width: 265px;
+  }
+}
+
+.dropdown {
+  position: relative;
+  padding-right: 16px + 20px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+
+  @media screen and (max-width: 1100px) {
+    padding-right: 8px + 16px;
+  }
+
+  &:after {
+    content: "";
+    background: url("../../assets/image/base-icons/ic-arrow-dropdown.svg") no-repeat center;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 20px;
+    right: 13px;
+    transition: transform 0.3s ease;
+
+    @media screen and (max-width: 1100px) {
+      right: 6px;
+    }
+  }
+
+  &:hover {
+    color: red;
+
+    &:after {
+      transform: rotate(180deg);
+    }
+  }
+
+  &:hover &Content {
+    position: absolute;
+    top: 50px;
+    display: block;
+    min-width: 100px;
+    color: $color-black;
+    background-color: $color-whiteish;
+    padding: 32px 32px 12px;
+    box-shadow: 0 0 50px rgba(0,0,0,.08);
+
+    @media screen and (max-width: 965px) {
+      position: relative;
+      padding: 16px;
+      top: 0;
+      box-shadow: none;
+    }
+  }
+
+  &Content {
+    display: none;
+  }
+
+  &List {
+    list-style-type: none;
+    padding: 0;
+    line-height: 30px;
+    display: grid;
+    align-items: center;
+  }
+
+  &Item {
+    a {
+      color: $color-black;
+    }
+
+    &:hover {
+      a {
+        color: $color-orange;
+      }
+    }
+  }
+}
+
+.burgerIcon {
+  display: none;
+
+  @media screen and (max-width: 965px) {
+    display: block;
+    width: 24px;
+    height: 24px;
+    padding: 3px;
+    position: relative;
+    z-index: 1250;
+  }
+
+  span {
+    display: block;
+    width: 18px;
+    height: 2px;
+    margin-bottom: 5px;
+    background-color: #141414;
+    border-radius: 3px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+}
+
+.closeIcon {
+  span {
+    opacity: 0;
+
+    &:first-child, &:last-child {
+      opacity: 1;
+    }
+
+    &:first-child {
+      transform: rotate(45deg) translate(3px);
+      transform-origin: 0 0;
+    }
+
+    &:last-child {
+      transform: rotate(-45deg) translate(1px, 2px);
+      transform-origin: 0 100%;
+    }
+  }
+}
+
+.menu {
+  &Mobile {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    top: 0;
+    background: $color-whiteish;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform: translateY(-100%);
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &Show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
